@@ -3997,3 +3997,18 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* Desktop styles */
+.article-text {
+  font-size: 1rem; /* 16px if base is 16px */
+}
+
+/* Mobile override */
+@media (max-width: 768px) {
+  .article-text {
+    font-size: 0.875rem; /* ~14px */
+  }
+  h1, h2, h3 {
+    font-size: 1.25rem; /* Scale down headings too */
+  }
+}
