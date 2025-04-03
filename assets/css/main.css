@@ -4012,3 +4012,15 @@ input, select, textarea {
     font-size: 1.25rem; /* Scale down headings too */
   }
 }
+
+.sub-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px; /* Indent the sublist */
+}
+
+.sub-list li::before {
+  content: "➤"; /* Custom symbol */
+  margin-right: 5px;
+  color: #FFD700; /* Gold color for contrast */
+  font-weight: bold;
+}
