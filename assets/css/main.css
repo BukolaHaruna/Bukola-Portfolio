@@ -4021,6 +4021,6 @@ input, select, textarea {
 .sub-list li::before {
   content: "➤"; /* Custom symbol */
   margin-right: 5px;
-  color: white; /* Gold color for contrast */
+  color: #FFFFFF; /* Gold color for contrast */
   font-weight: bold;
 }
