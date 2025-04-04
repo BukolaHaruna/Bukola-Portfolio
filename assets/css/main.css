@@ -4015,7 +4015,8 @@ input, select, textarea {
 
 .sub-list {
   list-style-type: none; /* Remove default bullets */
-  padding-left: 20px; /* Indent the sublist */
+  margin-left: 1em
+  padding-left: o; /* Indent the sublist */
 }
 
 .sub-list li::before {
