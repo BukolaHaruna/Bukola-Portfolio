@@ -4015,7 +4015,7 @@ input, select, textarea {
 
 .sub-list {
   list-style-type: none; /* Remove default bullets */
-  margin-left: 0
+  margin-left: 0.25em
   padding-left: o; /* Indent the sublist */
 }
 
@@ -4026,6 +4026,8 @@ input, select, textarea {
   font-weight: bold;
 }
 
-#two .spotlight .content {
+#two .spotlight .content p,
+#two .spotlight .content ul,
+#two .spotlight .content li {
   text-align: justify;
 }
