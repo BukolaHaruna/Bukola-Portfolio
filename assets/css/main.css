@@ -4024,3 +4024,7 @@ input, select, textarea {
   color: #FFFFFF; /* Gold color for contrast */
   font-weight: bold;
 }
+
+#two .spotlight .content {
+  text-align: justify;
+}
